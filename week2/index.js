@@ -8,4 +8,4 @@ p1.textContent = "All of this was created with Javascript"
 document.body.append(p1)
 var list = document.createElement("li")
 list.textContent = "three"
-list1.append(list)
+document.body.append(list)
