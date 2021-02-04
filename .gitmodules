@@ -1,0 +1,3 @@
+[submodule "week2/basicWebsiteJs/week6/marioPestControl/mario_pest_control"]
+	path = week2/basicWebsiteJs/week6/marioPestControl/mario_pest_control
+	url = https://github.com/valparr/mario_pest_control
