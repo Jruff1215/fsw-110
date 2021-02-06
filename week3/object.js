@@ -1,23 +1,26 @@
-var head = document.createElement("h1")
-head.textContent = "Hello World"
-document.body.append(head)
-var greeting = [
-    {greeting: "Hello World", color: "Red"},
-    {greeting: "Hello World", color: "green"},
-    {greeting: "Hello World", color: "black"},
-    {greeting: "Hello World", color: "gray"},
-    {greeting: "Hello World", color: "teal"},
-    {greeting: "Hello World", color: "pink"},
-    {greeting: "Hello World", color: "orange"},
-    {greeting: "Hello World", color: "yellow"},
-    {greeting: "Hello World", color: "blue"},
-    {greeting: "Hello World", color: "silver"}
-]
+for (i = 0; i < 10; i++) {
+var greeting = document.createElement("h1");
+greeting.textContent = "Hello World";
+greeting.style.color = "red";
+greeting.style.textAlign = "center"
+document.body.append(greeting);
+}
 
-var greetingList = document.getElementsById("hello")
-console.log(greeting)
+var names = [
+    "Steve", 
+    "Larry", 
+    "Joe", 
+    "Shirley", 
+    "Steph", 
+    "Nate", 
+    "Rick", 
+    "Emily"]
 
-var i;
-for (i = 0; i < greeting.length; i++) {
-    console.log(i)
+for (i = 0; i < names.length; i++) {
+    var names2 = document.createElement("li");
+    names2.textContent = names[i];
+    names2.style.fontSize = "25px";
+    names2.style.backgroundColor = "Purple";
+    names2.style.color = "white";
+    document.body.append(names2)
 }
