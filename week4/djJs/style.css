@@ -1,0 +1,12 @@
+.logo1 {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+.square1 {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
